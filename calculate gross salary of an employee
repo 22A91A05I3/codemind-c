@@ -1,0 +1,14 @@
+#include<stdio.h>
+void renu(float a,float b,float c)
+{
+float pf=a*12/100;
+printf("%.2f\n",pf);
+float total=a+b+c+pf;
+printf("%.2f",total);
+}
+int main()
+{
+float bs,hra,da;
+scanf("%f%f%f",&bs,&hra,&da);
+renu(bs,hra,da);
+}
