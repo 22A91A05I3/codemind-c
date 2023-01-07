@@ -1,0 +1,33 @@
+#include<stdio.h>
+int main()
+{
+int n;
+float bill,total,sc;
+scanf("%d",&n);
+if(n<=199)
+{
+bill=n*1.20;
+}
+else if(n>=200 && n<399)
+{
+bill=n*1.50;
+}
+else if(n>=400 && n<599)
+{
+bill=n*1.80;
+}
+else if(n>=600)
+{
+bill=n*2.00;
+}
+if (n>400)
+{
+sc=bill*0.15;
+total=sc+bill;
+printf("%0.2f",total);
+}
+else
+{
+printf("%0.2f",bill+100);
+}
+}
