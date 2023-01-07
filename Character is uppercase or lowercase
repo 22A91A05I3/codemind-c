@@ -1,0 +1,16 @@
+#include<stdio.h>
+int main()
+{
+char fc;
+scanf("%c",&fc);
+if(fc>='A' && fc<='Z')
+{
+printf("uppercase alphabet");
+}
+else if (fc>='a' && fc<='z')
+{
+printf("lowercase alphabet");
+}
+else{printf("not an alphabet");
+}
+}
