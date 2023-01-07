@@ -1,0 +1,10 @@
+#include<stdio.h>
+int main()
+{
+int chinnu,i;
+scanf("%d",&chinnu);
+for(i=1;i<=chinnu;i++)
+{
+printf("%d ",i*3);
+}
+}
